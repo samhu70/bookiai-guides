@@ -1,26 +1,26 @@
 # BookiAI Guides (Local Drafts)
 
-本目录用于在本地撰写/审阅教程稿件，完稿后推送到 GitHub，并在 BookiAI 博客中创建目录页指向 GitHub 正文。
+Use this folder to draft/review guides locally, then push to GitHub. The blog will link to the GitHub source as the canonical version.
 
-## 结构
-- `guides/<slug>/index.md`：每篇正文，含 frontmatter。
-- `guides/<slug>/assets/`：对应图片（建议使用对象存储 URL 或 Git LFS）。
+## Structure
+- `guides/*.md`: each guide with frontmatter.
+- `guides/assets/<slug>/`: images per guide (keep sizes small; use LFS or object storage if large).
 
-## Frontmatter 模板
+## Frontmatter template
 ```yaml
 ---
 title: "Accounts & Access: From Sign-up to Billing"
-summary: "注册、登录、邮箱验证、密码管理，以及免费额度与升级/扩容指南。"
+summary: "Sign-up, login, email verification, password management, free quotas, upgrades/expansions, and downgrades."
 tags: ["guides", "accounts"]
 category: "guides"
-github_url: "https://github.com/your-org/bookiai-guides/blob/main/guides/accounts-access/index.md"
-hero_image: "https://cdn.example.com/blogs/heroes/accounts-access.jpg" # 可选，若有
+github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/accounts-and-access.md"
+hero_image: "" # optional, use object storage URL if available
 status: "draft"
 ---
 ```
 
-## 工作流
-1) 在本地撰写 `index.md`，引用图片 URL。
-2) 推送到 GitHub 仓库（私有/公开自选）。
-3) 按博客后台流程创建目录页（标题+摘要+外链），分类 `guides`。
-4) 更新状态：`draft` → `ready` → `published`。
+## Workflow
+1) Write/edit the guide locally; link images via relative paths in `assets/`.
+2) Push to the GitHub repo (private or public).
+3) In the BookiAI blog, create a directory page (title + summary + external link) pointing to the GitHub guide; set category to `guides`.
+4) Update status as you move through `draft` → `ready` → `published`.
