@@ -1,0 +1,26 @@
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Node / tooling
+node_modules/
+dist/
+coverage/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Env / secrets
+.env
+.env.*
+.env.local
+
+# Logs / temp
+*.log
+tmp/
+.tmp/
+
+# Bundled assets (generated)
+public/
+

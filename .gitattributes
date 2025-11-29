@@ -1,0 +1,8 @@
+# Track large media with Git LFS if needed (uncomment patterns in use)
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.jpg filter=lfs diff=lfs merge=lfs -text
+# *.jpeg filter=lfs diff=lfs merge=lfs -text
+# *.webp filter=lfs diff=lfs merge=lfs -text
+
+# Ensure Unix line endings
+* text=auto eol=lf
