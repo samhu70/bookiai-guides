@@ -14,6 +14,9 @@ status: "draft"
 
 ## 1. Sign-up and Login
 - **Sign-up URL**: `https://bookiai.com.au/register` (or your regional domain).
+<div align="center">
+  <img src="./assets/account/signup.png" alt="Sign-up" />
+</div>
 - **Required fields**:
   - Email (must be valid)
   - Password (min 8 characters, must include upper/lowercase letters and a number)
@@ -21,19 +24,24 @@ status: "draft"
   - Full Name (optional; saved if provided)
 - **Email verification**: Optional after sign-up. You can verify later in the user/profile center; the verification email can be resent from there.
 - **Login URL**: `https://bookiai.com.au/login`.
+<div align="center">
+  <img src="./assets/account/login.png" alt="Login" />
+</div>
 - **Login methods**: Email + password. SSO currently supported: Google (follow the login page prompt).
 - **Common errors**:
   - “Invalid credentials” → check email spelling and case; reset password if needed.
   - No verification email → check spam or whitelist `bookiai.com.au`; click “Resend verification email” on the login page.
 
-> Screenshots: ![Sign-up](./assets/account/signup.png) ![Login](./assets/account/login.png)
+
 
 ## 2. Top Navigation (after login)
 - **Dashboard**: Default landing for ledgers, tasks, recent entries.
 - **Profile**: Update name, avatar, security details, password; view email verification status.
 - **AI Settings**: Configure AI connectors/preferences. First login may prompt setup; after that, access it via the top nav (no auto-redirect).
 - **Header actions**: Theme toggle, user avatar, logout.
-- **Screenshot**: ![Top navigation](./assets/account/top-nav.png) (highlight Dashboard, Profile, AI Settings, avatar/logout)
+<div align="center">
+  <img src="./assets/account/top-nav.png" alt="Top navigation" />
+</div>
 
 ## 3. First Login → AI Settings (why)
 - **Why the redirect**: The product relies on AI assistants via external APIs. On first login you’ll be taken to **AI Settings** to provide API keys so features can run.
@@ -45,7 +53,10 @@ status: "draft"
   - Gemini: `gemini-1.5-pro` (higher quality), `gemini-1.5-flash` (faster/cheaper).
   - OpenAI: `gpt-4o` (full quality), `gpt-4o-mini` (fast/cheap).
 - **Security note**: Store keys securely; rotate if leaked. Keys are used only server-side to call LLM APIs.
-- **Screenshot**: ![AI settings form](./assets/account/ai-settings.png) (Gemini/OpenAI key inputs and save/test actions)
+
+<div align="center">
+  <img src="./assets/account/ai-settings.png" alt="AI settings form" />
+</div>
 - **Parameter guide** (defaults shown in UI):
   - Provider: OpenAI or Gemini (choose one; more can be added later).
   - Model: e.g., `gpt-4o-mini` (OpenAI) or `gemini-1.5-flash` (Gemini); use `gpt-4o`/`gemini-1.5-pro` for higher quality or multimodal.
@@ -61,28 +72,43 @@ status: "draft"
 
 ### 3.1 OpenAI API: how to get a key
 - Go to [platform.openai.com/settings/organization/api-keys](https://platform.openai.com/settings/organization/api-keys) (requires OpenAI account and sign-in) → “Create new secret key”. Usage may incur charges.
+- Screenshots:
+  <div align="center">
+    <img src="./assets/account/openai-key.png" alt="Create OpenAI key" />
+    <img src="./assets/account/ai-settings-openai.png" alt="OpenAI config" />
+  </div>
+
 - Copy the key once; paste into AI Settings → OpenAI → API Key. Keep it private.
 - Recommended models: `gpt-4o` (quality, multimodal) or `gpt-4o-mini` (fast/cheap, multimodal).
-- Screenshots: ![Create OpenAI key](./assets/account/openai-key.png) ![OpenAI config](./assets/account/ai-settings-openai.png)
 
 ### 3.2 Gemini API: how to get a key
 - Go to [aistudio.google.com](https://aistudio.google.com/) → “Get API key” → select project → generate key.
 - Copy the key; paste into AI Settings → Gemini → API Key.
 - Recommended models: `gemini-1.5-pro` (quality, multimodal) or `gemini-1.5-flash` (fast/cheap, multimodal).
-- Screenshots: ![Generate Gemini key](./assets/account/gemini-key.png) ![Gemini config](./assets/account/ai-settings-gemini.png)
+- Screenshots:
+  <div align="center">
+    <img src="./assets/account/gemini-key.png" alt="Generate Gemini key" />
+    <img src="./assets/account/ai-settings-gemini.png" alt="Gemini config" />
+  </div>
 
 ### 3.4 AI Model Connections page (manage later)
 - **Where**: Top nav → AI Settings (any time after initial setup).
 - **You can**: Add new connection (provider/model/base URL/key), edit, set default, test latency/tokens, delete unused.
 - **Default model**: Mark via “Set Default” in the list; used by assistants if none specified.
-- **Screenshot**: ![AI model connections](./assets/account/ai-model-connections.png) (cards with provider/model, Default badge, Set Default/Edit/Test/Delete).
+- **Screenshot**:
+  <div align="center">
+    <img src="./assets/account/ai-model-connections.png" alt="AI model connections" />
+  </div>
 
 ## 4. Dashboard (after AI Settings)
 - **Landing**: After saving AI Settings, you’ll land on Dashboard to manage ledgers.
 - **Free user limits**: 1 free ledger, storage per ledger: 100 MB.
 - **Paid member limits**: 5 ledgers, each 1 GB, plus 1 membership system ledger for billing records.
 - **What you can do**: Open ledgers, view tasks/activity, jump to ledger setup, check usage vs quota.
-- **Screenshot**: ![Dashboard](./assets/account/dashboard.png) (show ledger list, usage/quotas).
+- **Screenshot**:
+  <div align="center">
+    <img src="./assets/account/dashboard.png" alt="Dashboard" />
+  </div>
 
 ## 5. Profile (free vs member) & why billing exists
 - **Profile for all users**: Update name, avatar, password/security; view email verification status.
@@ -99,21 +125,29 @@ status: "draft"
   - **Manage in Stripe portal**: open the Stripe customer portal to update payment methods, view/download invoices, adjust plans, or manage cancellations.
 - **Why fees**: Membership/ledger fees cover cloud costs (Google storage for ledger files, network bandwidth, and related services) and basic operations. The platform was built entirely with AI tools (OpenAI Codex, Stitch, Gemini, etc.), and we do not charge to recoup development; your payment primarily covers your own cloud usage.
 - **Screenshots**: 
-  - ![Profile (free)](./assets/account/profile-free.png) (profile info, upgrade links, quota overview for free users)
-  - ![Profile (member)](./assets/account/profile-member.png) (profile info, billing/ledger/storage summary for members)
+  <div align="center">
+    <img src="./assets/account/profile-free.png" alt="Profile (free)" />
+    <img src="./assets/account/profile-member.png" alt="Profile (member)" />
+  </div>
 
 ## 6. AI Assistant (in app)
 - **What it does**: Helps draft journal entries, classify transactions, and answer ledger questions using your configured AI model.
 - **Entry points**: Available within ledgers (tasks/entries) and via the AI panel; uses your default model from AI Settings.
 - **Permissions**: Respects your account/ledger access; outputs stay within your tenant.
-- **Screenshot**: ![AI assistant](./assets/ai-assistant.png) (assistant panel with prompt/response).
+- **Screenshot**:
+  <div align="center">
+    <img src="./assets/account/ai-assistant.png" alt="AI assistant" />
+  </div>
 
 ## 7. Email Verification & Security
 - **Immediate use**: After registering you become a free user and can log in/use the app right away.
 - **How to verify (optional)**: In the user/profile center, resend the verification email and complete it from there; useful for enabling email-based notifications and strengthening account trust.
 - **Security tips**: Even without mandatory verification, keep a strong password and enable MFA if available; never share your account.
 
-> Screenshot: ![Email verification](./assets/account/email-verification.png) (unverified banner / verification email).
+> Screenshot:
+> <div align="center">
+>   <img src="./assets/account/email-verification.png" alt="Email verification" />
+> </div>
 
 ## 8. Password Management
 - **Change password**: In “Profile / Security”, provide current password and set a new one.
@@ -138,7 +172,10 @@ status: "draft"
   - Team collaboration, approvals, and audits required
   - Want advanced AI/automation and external reporting
 
-> Table/visual: ![Plan comparison](./assets/account/plan-comparison.png) (free vs paid quotas).
+> Table/visual:
+> <div align="center">
+>   <img src="./assets/account/plan-comparison.png" alt="Plan comparison" />
+> </div>
 
 ## 10. Upgrades & Expansions
 - **Where**: `Billing / Subscription` inside the app; pick a paid plan or customize add-ons.
