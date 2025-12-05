@@ -3,7 +3,7 @@ title: "Accounts & Access: From Sign-up to Billing"
 summary: "Sign-up, login, email verification, password management, free quotas, upgrades/expansions, and downgrades."
 tags: ["guides", "accounts", "billing"]
 category: "guides"
-github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/accounts-and-access.md"
+github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/en/02-accounts-and-access.md"
 hero_image: "" # optional, use object storage URL if available
 status: "draft"
 ---
@@ -15,7 +15,7 @@ status: "draft"
 ## 1. Sign-up and Login
 - **Sign-up URL**: `https://bookiai.com.au/register` (or your regional domain).
 <div align="center">
-  <img src="./assets/account/signup.png" alt="Sign-up" />
+  <img src="../assets/account/signup.png" alt="Sign-up" />
 </div>
 - **Required fields**:
   - Email (must be valid)
@@ -25,7 +25,7 @@ status: "draft"
 - **Email verification**: Optional after sign-up. You can verify later in the user/profile center; the verification email can be resent from there.
 - **Login URL**: `https://bookiai.com.au/login`.
 <div align="center">
-  <img src="./assets/account/login.png" alt="Login" />
+  <img src="../assets/account/login.png" alt="Login" />
 </div>
 - **Login methods**: Email + password. SSO currently supported: Google (follow the login page prompt).
 - **Common errors**:
@@ -34,87 +34,14 @@ status: "draft"
 
 
 
-## 2. Top Navigation (after login)
-- **Dashboard**: Default landing for ledgers, tasks, recent entries.
-- **Profile**: Update name, avatar, security details, password; view email verification status.
-- **AI Settings**: Configure AI connectors/preferences. First login may prompt setup; after that, access it via the top nav (no auto-redirect).
-- **Header actions**: Theme toggle, user avatar, logout.
-<div align="center">
-  <img src="./assets/account/top-nav.png" alt="Top navigation" />
-</div>
-
-## 3. First Login → AI Settings (why)
-- **Why the redirect**: The product relies on AI assistants via external APIs. On first login you’ll be taken to **AI Settings** to provide API keys so features can run.
-- **What to do**: Enter at least one valid provider key, save, and test connection. After this initial setup, future logins go to Dashboard; AI Settings remains in the top nav.
-- **Supported providers & how to get keys**:
-  - **Gemini (Google AI)**: Create a key in Google AI Studio → “Get API key”. Paste the key into Gemini section. For multimodal (text+image), use `gemini-1.5-pro` or `gemini-1.5-flash`.
-  - **OpenAI**: Create key in OpenAI console (User API keys). Paste into OpenAI section. For multimodal, use `gpt-4o` or `gpt-4o-mini` (supports image input).
-- **Model recommendations (multimodal)**:
-  - Gemini: `gemini-1.5-pro` (higher quality), `gemini-1.5-flash` (faster/cheaper).
-  - OpenAI: `gpt-4o` (full quality), `gpt-4o-mini` (fast/cheap).
-- **Security note**: Store keys securely; rotate if leaked. Keys are used only server-side to call LLM APIs.
-
-<div align="center">
-  <img src="./assets/account/ai-settings.png" alt="AI settings form" />
-</div>
-- **Parameter guide** (defaults shown in UI):
-  - Provider: OpenAI or Gemini (choose one; more can be added later).
-  - Model: e.g., `gpt-4o-mini` (OpenAI) or `gemini-1.5-flash` (Gemini); use `gpt-4o`/`gemini-1.5-pro` for higher quality or multimodal.
-  - Base URL: OpenAI `https://api.openai.com`; Gemini `https://generativelanguage.googleapis.com` (override only if using a proxy).
-  - API Key: required on create; stored securely and not re-displayed.
-  - Temperature (default ~0.7): higher = more creative, lower = more deterministic.
-  - Max Tokens (default ~1024): response length cap; raise for longer outputs.
-  - Top P (default 1): nucleus sampling; leave default unless you know you need to tune it.
-  - Streaming (default off): turn on for incremental responses if your use case needs it.
-  - Timeout (default ~60s): increase only if long-running prompts time out.
-  - Headers: optional custom HTTP headers (e.g., org IDs); usually leave empty.
-  - Default model: set from the AI Settings list via “Set Default”; used by assistants if no model is specified.
-
-### 3.1 OpenAI API: how to get a key
-- Go to [platform.openai.com/settings/organization/api-keys](https://platform.openai.com/settings/organization/api-keys) (requires OpenAI account and sign-in) → “Create new secret key”. Usage may incur charges.
-- Screenshots:
-  <div align="center">
-    <img src="./assets/account/openai-key.png" alt="Create OpenAI key" />
-    <img src="./assets/account/ai-settings-openai.png" alt="OpenAI config" />
-  </div>
-
-- Copy the key once; paste into AI Settings → OpenAI → API Key. Keep it private.
-- Recommended models: `gpt-4o` (quality, multimodal) or `gpt-4o-mini` (fast/cheap, multimodal).
-
-### 3.2 Gemini API: how to get a key
-- Go to [aistudio.google.com](https://aistudio.google.com/) → “Get API key” → select project → generate key.
-- Copy the key; paste into AI Settings → Gemini → API Key.
-- Recommended models: `gemini-1.5-pro` (quality, multimodal) or `gemini-1.5-flash` (fast/cheap, multimodal).
-- Screenshots:
-  <div align="center">
-    <img src="./assets/account/gemini-key.png" alt="Generate Gemini key" />
-    <img src="./assets/account/ai-settings-gemini.png" alt="Gemini config" />
-  </div>
-
-### 3.4 AI Model Connections page (manage later)
-- **Where**: Top nav → AI Settings (any time after initial setup).
-- **You can**: Add new connection (provider/model/base URL/key), edit, set default, test latency/tokens, delete unused.
-- **Default model**: Mark via “Set Default” in the list; used by assistants if none specified.
-- **Screenshot**:
-  <div align="center">
-    <img src="./assets/account/ai-model-connections.png" alt="AI model connections" />
-  </div>
-
-## 4. Dashboard (after AI Settings)
-- **Landing**: After saving AI Settings, you’ll land on Dashboard to manage ledgers.
-- **Free user limits**: 1 free ledger, storage per ledger: 100 MB.
-- **Paid member limits**: 5 ledgers, each 1 GB, plus 1 membership system ledger for billing records.
-- **What you can do**: Open ledgers, view tasks/activity, jump to ledger setup, check usage vs quota.
-- **Screenshot**:
-  <div align="center">
-    <img src="./assets/account/dashboard.png" alt="Dashboard" />
-  </div>
-
 ## 5. Profile (free vs member) & why billing exists
 - **Profile for all users**: Update name, avatar, password/security; view email verification status.
 - **Free vs member mode**:
   - Free: 1 ledger @ 100 MB, basic features.
   - Member: 5 ledgers @ 1 GB each + membership ledger; advanced features and higher quotas.
+  <div align="center">
+    <img src="../assets/account/profile-free.png" alt="Profile (free)" />
+  </div>
 - **Upgrade/expand**:
   - Go to Billing/Subscription from Profile to upgrade membership.
   - Buy extra ledger slots if you need more than the included count.
@@ -126,8 +53,7 @@ status: "draft"
 - **Why fees**: Membership/ledger fees cover cloud costs (Google storage for ledger files, network bandwidth, and related services) and basic operations. The platform was built entirely with AI tools (OpenAI Codex, Stitch, Gemini, etc.), and we do not charge to recoup development; your payment primarily covers your own cloud usage.
 - **Screenshots**: 
   <div align="center">
-    <img src="./assets/account/profile-free.png" alt="Profile (free)" />
-    <img src="./assets/account/profile-member.png" alt="Profile (member)" />
+    <img src="../assets/account/profile-member.png" alt="Profile (member)" />
   </div>
 
 ## 6. AI Assistant (in app)
@@ -136,7 +62,7 @@ status: "draft"
 - **Permissions**: Respects your account/ledger access; outputs stay within your tenant.
 - **Screenshot**:
   <div align="center">
-    <img src="./assets/account/ai-assistant.png" alt="AI assistant" />
+    <img src="../assets/account/ai-assistant.png" alt="AI assistant" />
   </div>
 
 ## 7. Email Verification & Security
@@ -146,7 +72,7 @@ status: "draft"
 
 > Screenshot:
 > <div align="center">
->   <img src="./assets/account/email-verification.png" alt="Email verification" />
+>   <img src="../assets/account/email-verification.png" alt="Email verification" />
 > </div>
 
 ## 8. Password Management
@@ -174,7 +100,7 @@ status: "draft"
 
 > Table/visual:
 > <div align="center">
->   <img src="./assets/account/plan-comparison.png" alt="Plan comparison" />
+>   <img src="../assets/account/plan-comparison.png" alt="Plan comparison" />
 > </div>
 
 ## 10. Upgrades & Expansions
@@ -204,4 +130,4 @@ status: "draft"
 
 ---
 
-> Next: [Creating Your First Ledger](./creating-your-first-ledger.md) — create a ledger, import chart of accounts, set opening balances.
+> Next: [Creating Your First Ledger](./03-creating-your-first-ledger.md) — create a ledger, import chart of accounts, set opening balances.
