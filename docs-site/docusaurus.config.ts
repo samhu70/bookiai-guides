@@ -53,6 +53,7 @@ const config: Config = {
         path: '../guides/en',
         routeBasePath: '/',
         sidebarPath: './sidebars.ts',
+        numberPrefixParser: false,
       },
     ],
     [
@@ -62,6 +63,7 @@ const config: Config = {
         path: '../guides/cn',
         routeBasePath: '/cn',
         sidebarPath: './sidebars.ts',
+        numberPrefixParser: false,
       },
     ],
   ],
