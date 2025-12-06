@@ -19,7 +19,7 @@ status: "draft"
 - 提供过账、编辑（如有权限）、预览等快捷操作，便于结账前检查。
 
 <div align="center">
-  <img src="../assets/ledger_journal_entries/hero.png" alt="Journal entries overview" />
+  <img src="/assets/ledger_journal_entries/hero.png" alt="Journal entries overview" />
 </div>
 
 ## 2. 分录列表
@@ -39,7 +39,7 @@ status: "draft"
 - 可保存为 Draft 供复核，或平衡后直接 Post。
 
 <div align="center">
-  <img src="../assets/ledger_journal_entries/create.png" alt="Create journal entry" />
+  <img src="/assets/ledger_journal_entries/create.png" alt="Create journal entry" />
 </div>
 
 ## 5. 修改分录
@@ -48,7 +48,7 @@ status: "draft"
 - 完成修改后可再次保存为草稿或直接过账。
 
 <div align="center">
-  <img src="../assets/ledger_journal_entries/edit.png" alt="编辑分录" />
+  <img src="/assets/ledger_journal_entries/edit.png" alt="编辑分录" />
 </div>
 
 ## 6. 下一步

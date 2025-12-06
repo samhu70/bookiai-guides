@@ -15,7 +15,7 @@ status: "draft"
 ## 1. Sign-up and Login
 - **Sign-up URL**: `https://bookiai.com.au/register` (or your regional domain).
 <div align="center">
-  <img src="../assets/account/signup.png" alt="Sign-up" />
+  <img src="/assets/account/signup.png" alt="Sign-up" />
 </div>
 - **Required fields**:
   - Email (must be valid)
@@ -25,7 +25,7 @@ status: "draft"
 - **Email verification**: Optional after sign-up. You can verify later in the user/profile center; the verification email can be resent from there.
 - **Login URL**: `https://bookiai.com.au/login`.
 <div align="center">
-  <img src="../assets/account/login.png" alt="Login" />
+  <img src="/assets/account/login.png" alt="Login" />
 </div>
 - **Login methods**: Email + password. SSO currently supported: Google (follow the login page prompt).
 - **Common errors**:
@@ -40,7 +40,7 @@ status: "draft"
   - Free: 1 ledger @ 100 MB, basic features.
   - Member: 5 ledgers @ 1 GB each + membership ledger; advanced features and higher quotas.
   <div align="center">
-    <img src="../assets/account/profile-free.png" alt="Profile (free)" />
+    <img src="/assets/account/profile-free.png" alt="Profile (free)" />
   </div>
 - **Upgrade/expand**:
   - Go to Billing/Subscription from Profile to upgrade membership.
@@ -53,7 +53,7 @@ status: "draft"
 - **Why fees**: Membership/ledger fees cover cloud costs (Google storage for ledger files, network bandwidth, and related services) and basic operations. The platform was built entirely with AI tools (OpenAI Codex, Stitch, Gemini, etc.), and we do not charge to recoup development; your payment primarily covers your own cloud usage.
 - **Screenshots**: 
   <div align="center">
-    <img src="../assets/account/profile-member.png" alt="Profile (member)" />
+    <img src="/assets/account/profile-member.png" alt="Profile (member)" />
   </div>
 
 ## 6. AI Assistant (in app)
@@ -62,7 +62,7 @@ status: "draft"
 - **Permissions**: Respects your account/ledger access; outputs stay within your tenant.
 - **Screenshot**:
   <div align="center">
-    <img src="../assets/account/ai-assistant.png" alt="AI assistant" />
+    <img src="/assets/account/ai-assistant.png" alt="AI assistant" />
   </div>
 
 ## 7. Email Verification & Security
@@ -72,7 +72,7 @@ status: "draft"
 
 > Screenshot:
 > <div align="center">
->   <img src="../assets/account/email-verification.png" alt="Email verification" />
+>   <img src="/assets/account/email-verification.png" alt="Email verification" />
 > </div>
 
 ## 8. Password Management
@@ -100,7 +100,7 @@ status: "draft"
 
 > Table/visual:
 > <div align="center">
->   <img src="../assets/account/plan-comparison.png" alt="Plan comparison" />
+>   <img src="/assets/account/plan-comparison.png" alt="Plan comparison" />
 > </div>
 
 ## 10. Upgrades & Expansions

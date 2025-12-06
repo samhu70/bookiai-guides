@@ -13,7 +13,7 @@ status: "draft"
 > 系统账簿是计费中心：会员扣费、附加包和发票都在这里。
 
 <div align="center">
-  <img src="../assets/system_ledger/hero.png" alt="系统账簿主截图" />
+  <img src="/assets/system_ledger/hero.png" alt="系统账簿主截图" />
 </div>
 
 ## 1. 页面用途
@@ -25,7 +25,7 @@ status: "draft"
 - 展示最近充值、下一次计划扣费、当前余额；包含计费文件的存储标签。
 
 <div align="center">
-  <img src="../assets/system_ledger/card.png" alt="系统账簿卡片" />
+  <img src="/assets/system_ledger/card.png" alt="系统账簿卡片" />
 </div>
 
 ## 3. 交易列表

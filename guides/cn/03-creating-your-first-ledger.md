@@ -24,7 +24,7 @@ status: "draft"
 - **免费 vs 会员**：免费用户 1 个账簿；会员可在额度内创建多个。
 - **截图**：
   <div align="center">
-    <img src="../assets/createledger/create-ledger.png" alt="Create ledger form" />
+    <img src="/assets/createledger/create-ledger.png" alt="Create ledger form" />
   </div>
 
 ## 2. 账簿创建后的 AI 建议
@@ -33,7 +33,7 @@ status: "draft"
 - 接受建议即可填充账簿；之后仍可编辑或删除科目。
 - 截图：
   <div align="center">
-    <img src="../assets/createledger/ai-suggestions.png" alt="AI-generated account suggestions" />
+    <img src="/assets/createledger/ai-suggestions.png" alt="AI-generated account suggestions" />
   </div>
 
 ## 3. 下一步

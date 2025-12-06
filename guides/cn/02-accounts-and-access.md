@@ -15,7 +15,7 @@ status: "draft"
 ## 1. 注册与登录
 - **注册地址**：`https://bookiai.com.au/register`（或你所在区域的域名）。
 <div align="center">
-  <img src="../assets/account/signup.png" alt="Sign-up" />
+  <img src="/assets/account/signup.png" alt="Sign-up" />
 </div>
 - **必填字段**：
   - 邮箱（必须有效）
@@ -25,7 +25,7 @@ status: "draft"
 - **邮箱验证**：注册后可选，稍后可在用户/个人中心完成验证；可在该处再次发送验证邮件。
 - **登录地址**：`https://bookiai.com.au/login`。
 <div align="center">
-  <img src="../assets/account/login.png" alt="Login" />
+  <img src="/assets/account/login.png" alt="Login" />
 </div>
 - **登录方式**：邮箱 + 密码。当前支持的 SSO：Google（按登录页提示操作）。
 - **常见错误**：
@@ -40,7 +40,7 @@ status: "draft"
   - 免费：1 个账簿 @ 100 MB，基础功能。
   - 会员：5 个账簿 @ 各 1 GB + 会员账簿；高级功能和更高额度。
   <div align="center">
-    <img src="../assets/account/profile-free.png" alt="Profile (free)" />
+    <img src="/assets/account/profile-free.png" alt="Profile (free)" />
   </div>
 - **升级/扩容**：
   - 从个人中心进入 Billing/Subscription 升级会员。
@@ -53,7 +53,7 @@ status: "draft"
 - **为何收费**：会员/账簿费用覆盖云资源（账簿文件的 Google 存储、网络带宽等）和基本运维。平台完全由 AI 工具（OpenAI Codex、Stitch、Gemini 等）构建，我们不为开发成本收费；你支付的主要是自身的云使用。
 - **截图**：
   <div align="center">
-    <img src="../assets/account/profile-member.png" alt="Profile (member)" />
+    <img src="/assets/account/profile-member.png" alt="Profile (member)" />
   </div>
 
 ## 6. 应用内 AI 助手
@@ -62,7 +62,7 @@ status: "draft"
 - **权限**：遵循你的账户/账簿访问控制；输出仅在你的租户内可见。
 - **截图**：
   <div align="center">
-    <img src="../assets/account/ai-assistant.png" alt="AI assistant" />
+    <img src="/assets/account/ai-assistant.png" alt="AI assistant" />
   </div>
 
 ## 7. 邮箱验证与安全
@@ -72,7 +72,7 @@ status: "draft"
 
 > 截图：
 > <div align="center">
->   <img src="../assets/account/email-verification.png" alt="Email verification" />
+>   <img src="/assets/account/email-verification.png" alt="Email verification" />
 > </div>
 
 ## 8. 密码管理
@@ -100,7 +100,7 @@ status: "draft"
 
 > 表格/示意：
 > <div align="center">
->   <img src="../assets/account/plan-comparison.png" alt="Plan comparison" />
+>   <img src="/assets/account/plan-comparison.png" alt="Plan comparison" />
 > </div>
 
 ## 10. 升级与扩容

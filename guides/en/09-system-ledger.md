@@ -13,7 +13,7 @@ status: "draft"
 > The system ledger is your billing home: see membership charges, add-ons, and invoices in one place.
 
 <div align="center">
-  <img src="../assets/system_ledger/hero.png" alt="System ledger hero" />
+  <img src="/assets/system_ledger/hero.png" alt="System ledger hero" />
 </div>
 
 ## 1. What this page is for
@@ -25,7 +25,7 @@ status: "draft"
 - Shows latest top-up, next scheduled charge, and current balance; includes a storage badge for billing files.
 
 <div align="center">
-  <img src="../assets/system_ledger/card.png" alt="System ledger card" />
+  <img src="/assets/system_ledger/card.png" alt="System ledger card" />
 </div>
 
 ## 3. Transactions list

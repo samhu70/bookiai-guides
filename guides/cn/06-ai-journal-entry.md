@@ -13,7 +13,7 @@ status: "draft"
 > 让 AI 读取单据、匹配科目，并草拟平衡分录。下面说明流程及截图放置位置。
 
 <div align="center">
-  <img src="../assets/ai_journal/hero.png" alt="AI 辅助分录主截图" />
+  <img src="/assets/ai_journal/hero.png" alt="AI 辅助分录主截图" />
 </div>
 
 ## 1. 上传单据
@@ -27,7 +27,7 @@ status: "draft"
 - 汇总表展示提取字段、建议科目、金额与理由，确保可控。
 
 <div align="center">
-  <img src="../assets/ai_journal/recognition.png" alt="AI 识别结果" />
+  <img src="/assets/ai_journal/recognition.png" alt="AI 识别结果" />
 </div>
 
 ## 3. 引导式分录

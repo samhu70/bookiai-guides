@@ -18,7 +18,7 @@ status: "draft"
 - Surface AI shortcuts for people who want auto-suggestions without digging into setup menus.
 
 <div align="center">
-  <img src="../assets/ledger_overview/hero.png" alt="Ledger overview hero" />
+  <img src="/assets/ledger_overview/hero.png" alt="Ledger overview hero" />
 </div>
 
 ## 2. Sidebar navigation

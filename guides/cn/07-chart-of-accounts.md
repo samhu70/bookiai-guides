@@ -13,7 +13,7 @@ status: "draft"
 > 在这里查看、调整和扩展科目；需要新代码时可用 AI 工具栏。
 
 <div align="center">
-  <img src="../assets/chart_of_accounts/hero.png" alt="科目表主截图" />
+  <img src="/assets/chart_of_accounts/hero.png" alt="科目表主截图" />
 </div>
 
 ## 1. 页面用途
@@ -30,7 +30,7 @@ status: "draft"
 - 更改即刻生效，并影响后续分录建议。
 
 <div align="center">
-  <img src="../assets/chart_of_accounts/edit.png" alt="编辑科目弹窗" />
+  <img src="/assets/chart_of_accounts/edit.png" alt="编辑科目弹窗" />
 </div>
 
 ## 4. 新增或删除科目
@@ -43,7 +43,7 @@ status: "draft"
 - 批准即可自动创建科目，再继续处理分录。
 
 <div align="center">
-  <img src="../assets/chart_of_accounts/ai.png" alt="AI 科目建议" />
+  <img src="/assets/chart_of_accounts/ai.png" alt="AI 科目建议" />
 </div>
 
 ## 6. 下一步

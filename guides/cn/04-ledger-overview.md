@@ -18,7 +18,7 @@ status: "draft"
 - 为想要自动建议的用户提供 AI 快捷入口，无需进入设置菜单。
 
 <div align="center">
-  <img src="../assets/ledger_overview/hero.png" alt="Ledger overview hero" />
+  <img src="/assets/ledger_overview/hero.png" alt="Ledger overview hero" />
 </div>
 
 ## 2. 侧边栏导航

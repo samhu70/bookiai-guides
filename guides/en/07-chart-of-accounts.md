@@ -13,7 +13,7 @@ status: "draft"
 > Review, adjust, and expand your accounts in one place. Use the AI toolbar when you need new codes fast.
 
 <div align="center">
-  <img src="../assets/chart_of_accounts/hero.png" alt="Chart of accounts hero" />
+  <img src="/assets/chart_of_accounts/hero.png" alt="Chart of accounts hero" />
 </div>
 
 ## 1. What this page is for
@@ -30,7 +30,7 @@ status: "draft"
 - Changes reflect immediately in journal entry suggestions.
 
 <div align="center">
-  <img src="../assets/chart_of_accounts/edit.png" alt="Edit account modal" />
+  <img src="/assets/chart_of_accounts/edit.png" alt="Edit account modal" />
 </div>
 
 ## 4. Add or remove accounts
@@ -43,7 +43,7 @@ status: "draft"
 - Approve to auto-create the account, then continue processing entries with the new code.
 
 <div align="center">
-  <img src="../assets/chart_of_accounts/ai.png" alt="AI suggestions for accounts" />
+  <img src="/assets/chart_of_accounts/ai.png" alt="AI suggestions for accounts" />
 </div>
 
 ## 6. Next steps

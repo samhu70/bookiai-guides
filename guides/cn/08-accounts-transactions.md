@@ -13,7 +13,7 @@ status: "draft"
 > 针对单个科目追踪所有分录，快速筛选，并在同一页查看附件。
 
 <div align="center">
-  <img src="../assets/accounts_transactions/hero.png" alt="科目交易主截图" />
+  <img src="/assets/accounts_transactions/hero.png" alt="科目交易主截图" />
 </div>
 
 ## 1. 页面用途

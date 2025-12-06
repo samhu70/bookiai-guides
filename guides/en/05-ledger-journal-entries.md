@@ -19,7 +19,7 @@ status: "draft"
 - Quick actions for posting, editing (if permitted), and previewing totals before period close.
 
 <div align="center">
-  <img src="../assets/ledger_journal_entries/hero.png" alt="Journal entries overview" />
+  <img src="/assets/ledger_journal_entries/hero.png" alt="Journal entries overview" />
 </div>
 
 ## 2. Journal entries list
@@ -39,7 +39,7 @@ status: "draft"
 - Save as Draft for review, or Post immediately once balanced.
 
 <div align="center">
-  <img src="../assets/ledger_journal_entries/create.png" alt="Create journal entry" />
+  <img src="/assets/ledger_journal_entries/create.png" alt="Create journal entry" />
 </div>
 
 ## 5. Edit or delete a journal entry
@@ -47,7 +47,7 @@ status: "draft"
 - Use the inline delete icon to remove an entry (deletions follow posting rules).
 
 <div align="center">
-  <img src="../assets/ledger_journal_entries/edit.png" alt="Edit journal entry" />
+  <img src="/assets/ledger_journal_entries/edit.png" alt="Edit journal entry" />
 </div>
 
 ## 6. Next steps

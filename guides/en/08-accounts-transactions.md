@@ -13,7 +13,7 @@ status: "draft"
 > Track every entry for a chosen account, filter quickly, and open attachments without leaving the page.
 
 <div align="center">
-  <img src="../assets/accounts_transactions/hero.png" alt="Account transactions hero" />
+  <img src="/assets/accounts_transactions/hero.png" alt="Account transactions hero" />
 </div>
 
 ## 1. What this page is for

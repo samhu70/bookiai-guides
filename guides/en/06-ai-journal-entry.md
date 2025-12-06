@@ -13,7 +13,7 @@ status: "draft"
 > Let AI read your documents, pick accounts, and draft balanced entries. This section shows the flow and where screenshots belong.
 
 <div align="center">
-  <img src="../assets/ai_journal/hero.png" alt="AI-assisted journal entry hero" />
+  <img src="/assets/ai_journal/hero.png" alt="AI-assisted journal entry hero" />
 </div>
 
 ## 1. Upload documents
@@ -27,7 +27,7 @@ status: "draft"
 - A summary table shows extracted fields, proposed accounts, amounts, and rationale.
 
 <div align="center">
-  <img src="../assets/ai_journal/recognition.png" alt="AI recognition results" />
+  <img src="/assets/ai_journal/recognition.png" alt="AI recognition results" />
 </div>
 
 ## 3. Guided entry creation

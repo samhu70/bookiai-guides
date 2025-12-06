@@ -24,7 +24,7 @@ status: "draft"
 - **Free vs member**: Free has 1 ledger; members can create up to their slot limit.
 - **Screenshot**:
   <div align="center">
-    <img src="../assets/createledger/create-ledger.png" alt="Create ledger form" />
+    <img src="/assets/createledger/create-ledger.png" alt="Create ledger form" />
   </div>
 
 ## 2. AI suggestions after ledger creation
@@ -33,7 +33,7 @@ status: "draft"
 - Accept the proposal to populate the ledger; you can always edit or delete accounts afterward.
 - Screenshot: 
   <div align="center">
-    <img src="../assets/createledger/ai-suggestions.png" alt="AI-generated account suggestions" />
+    <img src="/assets/createledger/ai-suggestions.png" alt="AI-generated account suggestions" />
   </div>
 
 ## 3. Next steps
