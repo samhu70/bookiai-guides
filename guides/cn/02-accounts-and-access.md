@@ -12,6 +12,9 @@ status: "draft"
 
 > 面向首次使用 BookiAI 的用户：如何创建账号、登录、验证邮箱、管理密码、了解免费额度、何时升级/扩容，以及如何降级/取消。
 
+## 观看视频
+- 视频概览：[账户与访问 (YouTube)](https://youtu.be/vSIR0BobKBs)
+
 ## 1. 注册与登录
 - **注册地址**：`https://bookiai.com.au/register`（或你所在区域的域名）。
 <div align="center">

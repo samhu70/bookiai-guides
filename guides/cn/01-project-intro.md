@@ -10,6 +10,9 @@ status: "draft"
 
 欢迎来到 BookiAI 指南系列。首篇为用户介绍产品当前提供的能力，以及接下来要上线的功能。
 
+## 观看视频
+- 视频介绍：[BookiAI 简介 (YouTube)](https://youtu.be/5c_3qO6W22k)
+
 ## BookiAI 是什么
 BookiAI 是一款 AI 原生的复式记账 SaaS 平台，面向小微企业、自由职业者和财务团队，帮助他们自动化发票采集、账簿更新与合规处理。
 

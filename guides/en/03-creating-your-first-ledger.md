@@ -12,6 +12,9 @@ status: "draft"
 
 > Walkthrough for new users to create their first ledger, import accounts, and get ready for transactions.
 
+## Watch the walkthrough
+- Video demo: [Creating Your First Ledger (YouTube)](https://youtu.be/vE2gCAzcP3Y)
+
 ## 1. Create a ledger
 - **Where**: Dashboard → “Create ledger” (or “Add ledger” for members).
 - **Fields & defaults** (from the create form):

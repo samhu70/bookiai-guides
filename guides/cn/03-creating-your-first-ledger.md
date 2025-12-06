@@ -12,6 +12,9 @@ status: "draft"
 
 > 为新用户提供操作手册，指导创建第一个账簿、导入科目，并为交易做好准备。
 
+## 观看视频
+- 视频演示：[创建你的第一个账簿 (YouTube)](https://youtu.be/vE2gCAzcP3Y)
+
 ## 1. 创建账簿
 - **位置**：Dashboard → “Create ledger”（会员为 “Add ledger”）。
 - **表单字段与默认值**：

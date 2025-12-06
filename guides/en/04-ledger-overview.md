@@ -12,6 +12,9 @@ status: "draft"
 
 > This page explains what you see on the Ledger Overview screen, why each section exists, and where to add UI screenshots.
 
+## Watch the walkthrough
+- Video overview: [Ledger Overview (YouTube)](https://www.youtube.com/watch?v=S-uVDh8DZdk)
+
 ## 1. What this page is for
 - Give every user a single place to scan ledger status: balances, storage usage, alerts, and quick actions.
 - Separate operational ledgers from the system wallet ledger so billing and usage are transparent.
