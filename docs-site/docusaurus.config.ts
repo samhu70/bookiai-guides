@@ -15,9 +15,9 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://bookiai.com.au',
-  // Served under https://bookiai.com.au/guides/
-  baseUrl: '/guides/',
+  url: 'https://guides.bookiai.com.au',
+  // Served at the subdomain root
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
