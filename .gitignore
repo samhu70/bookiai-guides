@@ -10,6 +10,8 @@ coverage/
 pnpm-lock.yaml
 package-lock.json
 yarn.lock
+# Allow the Docusaurus lockfile to be tracked
+!docs-site/package-lock.json
 
 # Env / secrets
 .env
@@ -23,4 +25,3 @@ tmp/
 
 # Bundled assets (generated)
 public/
-
