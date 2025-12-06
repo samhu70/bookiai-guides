@@ -13,7 +13,16 @@ status: "draft"
 > 为新用户提供操作手册，指导创建第一个账簿、导入科目，并为交易做好准备。
 
 ## 观看视频
-- 视频演示：[创建你的第一个账簿 (YouTube)](https://youtu.be/vE2gCAzcP3Y)
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/vE2gCAzcP3Y"
+    title="创建你的第一个账簿"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>需要链接？<a href="https://youtu.be/vE2gCAzcP3Y">在 YouTube 打开</a>。</p>
 
 ## 1. 创建账簿
 - **位置**：Dashboard → “Create ledger”（会员为 “Add ledger”）。

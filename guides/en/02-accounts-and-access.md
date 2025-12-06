@@ -13,7 +13,16 @@ status: "draft"
 > For first-time BookiAI users: how to create an account, log in, verify email, manage passwords, understand free quotas, when to upgrade/expand, and how to downgrade/cancel.
 
 ## Watch the walkthrough
-- Video overview: [Accounts & Access (YouTube)](https://youtu.be/vSIR0BobKBs)
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/vSIR0BobKBs"
+    title="Accounts & Access"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>Prefer the link? <a href="https://youtu.be/vSIR0BobKBs">Open on YouTube</a>.</p>
 
 ## 1. Sign-up and Login
 - **Sign-up URL**: `https://bookiai.com.au/register` (or your regional domain).

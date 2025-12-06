@@ -11,7 +11,16 @@ status: "draft"
 欢迎来到 BookiAI 指南系列。首篇为用户介绍产品当前提供的能力，以及接下来要上线的功能。
 
 ## 观看视频
-- 视频介绍：[BookiAI 简介 (YouTube)](https://youtu.be/5c_3qO6W22k)
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/5c_3qO6W22k"
+    title="BookiAI 简介"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>需要链接？<a href="https://youtu.be/5c_3qO6W22k">在 YouTube 打开</a>。</p>
 
 ## BookiAI 是什么
 BookiAI 是一款 AI 原生的复式记账 SaaS 平台，面向小微企业、自由职业者和财务团队，帮助他们自动化发票采集、账簿更新与合规处理。

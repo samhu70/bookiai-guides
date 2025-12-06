@@ -11,7 +11,16 @@ status: "draft"
 Welcome to the BookiAI guide series. This first entry introduces the product so users understand what BookiAI offers today and what’s coming next.
 
 ## Watch the overview
-- Video intro: [Introducing BookiAI (YouTube)](https://youtu.be/5c_3qO6W22k)
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/5c_3qO6W22k"
+    title="Introducing BookiAI"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>Prefer the link? <a href="https://youtu.be/5c_3qO6W22k">Open on YouTube</a>.</p>
 
 ## What BookiAI Is
 BookiAI is a SaaS accounting platform with AI-native workflows. It combines multi-tenant bookkeeping, subscription-ready operations, and multimodal AI to automate invoice capture, ledger updates, and compliance for small businesses and finance teams.

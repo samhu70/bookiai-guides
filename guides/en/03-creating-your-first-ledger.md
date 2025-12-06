@@ -13,7 +13,16 @@ status: "draft"
 > Walkthrough for new users to create their first ledger, import accounts, and get ready for transactions.
 
 ## Watch the walkthrough
-- Video demo: [Creating Your First Ledger (YouTube)](https://youtu.be/vE2gCAzcP3Y)
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/vE2gCAzcP3Y"
+    title="Creating Your First Ledger"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>Prefer the link? <a href="https://youtu.be/vE2gCAzcP3Y">Open on YouTube</a>.</p>
 
 ## 1. Create a ledger
 - **Where**: Dashboard → “Create ledger” (or “Add ledger” for members).

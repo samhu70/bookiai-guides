@@ -13,7 +13,16 @@ status: "draft"
 > This page explains what you see on the Ledger Overview screen, why each section exists, and where to add UI screenshots.
 
 ## Watch the walkthrough
-- Video overview: [Ledger Overview (YouTube)](https://www.youtube.com/watch?v=S-uVDh8DZdk)
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/S-uVDh8DZdk"
+    title="Ledger Overview"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>Prefer the link? <a href="https://www.youtube.com/watch?v=S-uVDh8DZdk">Open on YouTube</a>.</p>
 
 ## 1. What this page is for
 - Give every user a single place to scan ledger status: balances, storage usage, alerts, and quick actions.

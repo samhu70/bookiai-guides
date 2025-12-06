@@ -13,7 +13,16 @@ status: "draft"
 > 说明账簿总览页能看到什么、每个区域的目的，以及截图应放在哪里。
 
 ## 观看视频
-- 视频概览：[账簿总览 (YouTube)](https://www.youtube.com/watch?v=S-uVDh8DZdk)
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/S-uVDh8DZdk"
+    title="账簿总览"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>需要链接？<a href="https://www.youtube.com/watch?v=S-uVDh8DZdk">在 YouTube 打开</a>。</p>
 
 ## 1. 页面用途
 - 为所有用户提供一个入口，快速查看账簿状态：余额、存储占用、告警与快捷操作。

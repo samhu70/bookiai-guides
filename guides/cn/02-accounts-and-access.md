@@ -13,7 +13,16 @@ status: "draft"
 > 面向首次使用 BookiAI 的用户：如何创建账号、登录、验证邮箱、管理密码、了解免费额度、何时升级/扩容，以及如何降级/取消。
 
 ## 观看视频
-- 视频概览：[账户与访问 (YouTube)](https://youtu.be/vSIR0BobKBs)
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/vSIR0BobKBs"
+    title="账户与访问"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>需要链接？<a href="https://youtu.be/vSIR0BobKBs">在 YouTube 打开</a>。</p>
 
 ## 1. 注册与登录
 - **注册地址**：`https://bookiai.com.au/register`（或你所在区域的域名）。
