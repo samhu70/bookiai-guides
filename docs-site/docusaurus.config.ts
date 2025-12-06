@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'BookiAI Guides',
   tagline: 'Product guides in English and Chinese',
-  favicon: 'img/favicon.ico',
+  favicon: 'assets/logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -80,7 +80,7 @@ const config: Config = {
       title: 'BookiAI Guides',
       logo: {
         alt: 'BookiAI logo',
-        src: 'img/logo.svg',
+        src: 'assets/logo.png',
       },
       items: [
         {
@@ -97,7 +97,7 @@ const config: Config = {
           label: '指南 (CN)',
         },
         {
-          href: 'https://github.com/bookiai/bookiai-guides',
+          href: 'https://github.com/samhu70/bookiai-guides',
           label: 'GitHub',
           position: 'right',
         },
@@ -131,7 +131,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/bookiai/bookiai-guides',
+              href: 'https://github.com/samhu70/bookiai-guides',
             },
           ],
         },
