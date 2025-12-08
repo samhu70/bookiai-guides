@@ -17,12 +17,12 @@ status: "draft"
 </div>
 
 ## 1. What this page is for
-- Central place to see every account, its code, statement type, category, and current balance.
-- Quick search and filters help you find the right account before posting entries.
+- Central place to see every account, its code, statement type, and category.
+- Quick search and filters help you find the right account before posting entries; balances aren’t shown here (use Accounts Transactions).
 
 ## 2. List view and filters
 - Search by code or name; filter by Balance Sheet or P&L categories (assets, liabilities, income, expenses).
-- Columns show code, name, statement type, category, and balance.
+- Columns show code, name, statement type, and category.
 
 ## 3. Edit an account
 - Use the edit action to change name, statement type, category, or parent.

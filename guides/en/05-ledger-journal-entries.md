@@ -12,6 +12,18 @@ status: "draft"
 
 > See how to review journal entries, find the right lines with filters, and post new entries with the required support.
 
+## Watch the walkthrough
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/QdU2FWIDtIc"
+    title="Ledger Journal Entries walkthrough"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>Prefer the link? <a href="https://www.youtube.com/watch?v=QdU2FWIDtIc">Open on YouTube</a>.</p>
+
 ## 1. What this page is for
 - One place to browse all journal entries for the selected ledger, check status, and keep supporting files attached.
 - Supports filtering/search plus time-based counts and amount summaries.
