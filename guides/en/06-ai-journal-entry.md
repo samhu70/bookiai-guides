@@ -12,6 +12,18 @@ status: "draft"
 
 > Let AI read your documents, pick accounts, and draft balanced entries. This section shows the flow and where screenshots belong.
 
+## Watch the walkthrough
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/8ChD-0dKmS4"
+    title="AI-Assisted Journal Entry walkthrough"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>Prefer the link? <a href="https://www.youtube.com/watch?v=8ChD-0dKmS4">Open on YouTube</a>.</p>
+
 <div align="center">
   <img src="/assets/ai_journal/hero.png" alt="AI-assisted journal entry hero" />
 </div>

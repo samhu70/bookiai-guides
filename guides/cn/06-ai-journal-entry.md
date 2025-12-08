@@ -12,6 +12,18 @@ status: "draft"
 
 > 让 AI 读取单据、匹配科目，并草拟平衡分录。下面说明流程及截图放置位置。
 
+## 观看视频
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/8ChD-0dKmS4"
+    title="AI 辅助分录演示"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>需要链接？<a href="https://www.youtube.com/watch?v=8ChD-0dKmS4">在 YouTube 打开</a>。</p>
+
 <div align="center">
   <img src="/assets/ai_journal/hero.png" alt="AI 辅助分录主截图" />
 </div>

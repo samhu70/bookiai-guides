@@ -12,6 +12,18 @@ status: "draft"
 
 > 针对单个科目追踪所有分录，快速筛选，并在同一页查看附件。
 
+## 观看视频
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/p6TRYxA6blU"
+    title="科目明细演示"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>需要链接？<a href="https://www.youtube.com/watch?v=p6TRYxA6blU">在 YouTube 打开</a>。</p>
+
 <div align="center">
   <img src="/assets/accounts_transactions/hero.png" alt="科目交易主截图" />
 </div>

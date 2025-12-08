@@ -12,6 +12,18 @@ status: "draft"
 
 > 系统账簿是计费中心：会员扣费、附加包和发票都在这里。
 
+## 观看视频
+<div style={{position:"relative", paddingBottom:"56.25%", height:0, overflow:"hidden", borderRadius:"12px", boxShadow:"0 12px 30px rgba(0,0,0,0.25)"}}>
+  <iframe
+    src="https://www.youtube.com/embed/ZqoLlM0fJic"
+    title="系统账簿与计费演示"
+    style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</div>
+<p style={{marginTop:"0.6rem"}}>需要链接？<a href="https://www.youtube.com/watch?v=ZqoLlM0fJic">在 YouTube 打开</a>。</p>
+
 <div align="center">
   <img src="/assets/system_ledger/hero.png" alt="系统账簿主截图" />
 </div>
