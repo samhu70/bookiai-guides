@@ -48,35 +48,35 @@ const guideCards: GuideCard[] = [
     title: 'Introducing BookiAI',
     description:
       'What BookiAI is, who it serves, and how Phase 1 rolls out across ledgers, AI, and billing.',
-    to: '/01-project-intro',
+    to: '/en000001',
   },
   {
     badge: 'Access',
     title: 'Accounts & billing',
     description:
       'Sign-up/login, email verification, quotas, upgrades/expansions, and how Stripe customer portal fits in.',
-    to: '/02-accounts-and-access',
+    to: '/en000002',
   },
   {
     badge: 'AI workflow',
     title: 'AI-assisted journal entry',
     description:
       'Upload invoices/receipts, review OCR + LLM proposals, and post drafts with audit-friendly attachments.',
-    to: '/06-ai-journal-entry',
+    to: '/en000006',
   },
   {
     badge: 'Ledger core',
     title: 'Ledgers, charts, and system ledger',
     description:
       'Create ledgers, manage charts of accounts, keep journals healthy, and understand the system ledger.',
-    to: '/09-system-ledger',
+    to: '/en000009',
   },
   {
     badge: '中文',
     title: '中文指南',
     description:
       '以中文了解 BookiAI：产品介绍、账号与访问、AI 记账流程，以及后续路线图。',
-    to: '/cn/01-project-intro',
+    to: '/cn/cn000001',
   },
 ];
 
@@ -85,21 +85,21 @@ const guideFlow = [
     title: 'Start with scope',
     body:
       'Use Guide 01 to align on the product promise, audiences, and what ships in Phase 1.',
-    to: '/01-project-intro',
+    to: '/en000001',
     cta: 'Open Guide 01',
   },
   {
     title: 'Onboard and bill with confidence',
     body:
       'Follow Accounts & Billing to cover sign-up/login, quotas, and Stripe-powered upgrades or downgrades.',
-    to: '/02-accounts-and-access',
+    to: '/en000002',
     cta: 'Accounts & Access',
   },
   {
     title: 'Ship the daily workflows',
     body:
       'Lean on the ledger, chart, and AI journal guides to keep entries accurate and auditable.',
-    to: '/06-ai-journal-entry',
+    to: '/en000006',
     cta: 'AI Journal Flow',
   },
 ];
@@ -160,10 +160,10 @@ export default function Home(): ReactNode {
                 sync.
               </p>
               <div className={styles.heroActions}>
-                <Link className={styles.primaryCta} to="/01-project-intro">
+                <Link className={styles.primaryCta} to="/en000001">
                   Start with Guide 01
                 </Link>
-                <Link className={styles.secondaryCta} to="/cn/01-project-intro">
+                <Link className={styles.secondaryCta} to="/cn/cn000001">
                   中文指南入口
                 </Link>
               </div>
@@ -269,7 +269,7 @@ export default function Home(): ReactNode {
                 </p>
                 <p className={styles.noteBody}>
                   Need a localized view? Open the same section in{' '}
-                  <Link to="/cn/01-project-intro">中文指南</Link> to align copy
+                  <Link to="/cn/cn000001">中文指南</Link> to align copy
                   and UI labels.
                 </p>
               </div>

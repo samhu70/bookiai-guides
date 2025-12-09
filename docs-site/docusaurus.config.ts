@@ -109,8 +109,8 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            {label: 'Guides (EN)', to: '/01-project-intro'},
-            {label: '指南 (CN)', to: '/cn/01-project-intro'},
+            {label: 'Guides (EN)', to: '/en000001'},
+            {label: '指南 (CN)', to: '/cn/cn000001'},
           ],
         },
         {
