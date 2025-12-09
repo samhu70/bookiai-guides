@@ -1,6 +1,7 @@
 ---
 title: "科目明细"
 summary: "说明科目详情页的价值、导航方式，并标注截图位置。"
+slug: "/cn000008"
 tags: ["guides", "accounts", "transactions"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/cn/08-accounts-transactions.md"

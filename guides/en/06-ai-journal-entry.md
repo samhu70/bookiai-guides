@@ -1,6 +1,7 @@
 ---
 title: "AI-Assisted Journal Entry"
 summary: "How the AI entry flow works, what each step is for, and where to place supporting screenshots."
+slug: "/en000006"
 tags: ["guides","ledger","ai"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/en/06-ai-journal-entry.md"

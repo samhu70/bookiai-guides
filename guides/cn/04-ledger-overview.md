@@ -1,6 +1,7 @@
 ---
 title: "账簿总览"
 summary: "了解页面结构、各区域用途，并标注截图放置位置。"
+slug: "/cn000004"
 tags: ["guides", "ledger", "dashboard"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/cn/04-ledger-overview.md"

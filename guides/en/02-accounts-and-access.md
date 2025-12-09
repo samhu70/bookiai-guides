@@ -1,6 +1,7 @@
 ---
 title: "Accounts & Access: From Sign-up to Billing"
 summary: "Sign-up, login, email verification, password management, free quotas, upgrades/expansions, and downgrades."
+slug: "/en000002"
 tags: ["guides", "accounts", "billing"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/en/02-accounts-and-access.md"

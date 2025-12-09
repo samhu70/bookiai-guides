@@ -1,6 +1,7 @@
 ---
 title: "Accounts Transactions"
 summary: "See why the account detail page matters, how to navigate it, and where to place screenshots."
+slug: "/en000008"
 tags: ["guides", "accounts", "transactions"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/en/08-accounts-transactions.md"

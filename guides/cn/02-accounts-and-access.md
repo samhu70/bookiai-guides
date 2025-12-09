@@ -1,6 +1,7 @@
 ---
 title: "账户与访问：从注册到计费"
 summary: "注册、登录、邮箱验证、密码管理、免费额度、升级/扩容与降级。"
+slug: "/cn000002"
 tags: ["guides", "accounts", "billing"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/cn/02-accounts-and-access.md"

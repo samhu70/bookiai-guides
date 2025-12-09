@@ -1,6 +1,7 @@
 ---
 title: "System Ledger & Billing"
 summary: "Understand the billing ledger, what each area shows, and where to add screenshots."
+slug: "/en000009"
 tags: ["guides", "ledger", "billing"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/en/09-system-ledger.md"

@@ -1,6 +1,7 @@
 ---
 title: "系统账簿与计费"
 summary: "理解计费账簿、各区域展示内容，并标注截图位置。"
+slug: "/cn000009"
 tags: ["guides", "ledger", "billing"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/cn/09-system-ledger.md"

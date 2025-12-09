@@ -1,6 +1,7 @@
 ---
 title: "Ledger Journal Entries"
 summary: "What the journal page is for, how to browse/post entries, and where to place screenshots."
+slug: "/en000005"
 tags: ["guides", "ledger", "journals"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/en/05-ledger-journal-entries.md"

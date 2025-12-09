@@ -1,6 +1,7 @@
 ---
 title: "账簿分录"
 summary: "了解分录页面的用途、如何浏览/过账，并标注截图位置。"
+slug: "/cn000005"
 tags: ["guides", "ledger", "journals"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/cn/05-ledger-journal-entries.md"

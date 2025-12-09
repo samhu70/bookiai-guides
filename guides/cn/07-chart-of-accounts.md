@@ -1,6 +1,7 @@
 ---
 title: "会计科目表"
 summary: "说明科目表页面的用途、如何管理科目，并标注 UI 截图位置。"
+slug: "/cn000007"
 tags: ["guides", "accounts", "configuration"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/cn/07-chart-of-accounts.md"

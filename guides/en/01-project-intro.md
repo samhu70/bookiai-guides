@@ -1,6 +1,7 @@
 ---
 title: "Guide 01 · Introducing BookiAI"
 summary: "What BookiAI is, who it serves, and how the system will be delivered across the Phase 1 roadmap."
+slug: "/en000001"
 tags: ["guides", "overview", "roadmap"]
 category: "guides"
 status: "draft"

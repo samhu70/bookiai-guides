@@ -1,6 +1,7 @@
 ---
 title: "AI 辅助分录"
 summary: "了解 AI 分录流程、各步骤用途，并标注支持截图的位置。"
+slug: "/cn000006"
 tags: ["guides","ledger","ai"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/cn/06-ai-journal-entry.md"

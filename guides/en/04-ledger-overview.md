@@ -1,6 +1,7 @@
 ---
 title: "Ledger Overview"
 summary: "See how the Ledger Overview page is organized, what each area is for, and where screenshots belong."
+slug: "/en000004"
 tags: ["guides", "ledger", "dashboard"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/en/04-ledger-overview.md"

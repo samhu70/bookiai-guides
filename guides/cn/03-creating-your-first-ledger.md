@@ -1,6 +1,7 @@
 ---
 title: "创建你的第一个账簿"
 summary: "新建账簿、导入会计科目表，并准备期初余额。"
+slug: "/cn000003"
 tags: ["guides", "ledger", "setup"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/cn/03-creating-your-first-ledger.md"

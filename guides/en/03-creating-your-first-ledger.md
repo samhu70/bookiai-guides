@@ -1,6 +1,7 @@
 ---
 title: "Creating Your First Ledger"
 summary: "Set up a new ledger, import your chart of accounts, and prepare opening balances."
+slug: "/en000003"
 tags: ["guides", "ledger", "setup"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/en/03-creating-your-first-ledger.md"

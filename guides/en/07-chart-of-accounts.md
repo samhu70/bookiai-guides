@@ -1,6 +1,7 @@
 ---
 title: "Chart of Accounts"
 summary: "What the chart view is for, how to manage accounts, and where to add screenshots for the UI."
+slug: "/en000007"
 tags: ["guides", "accounts", "configuration"]
 category: "guides"
 github_url: "https://github.com/samhu70/bookiai-guides/blob/main/guides/en/07-chart-of-accounts.md"
