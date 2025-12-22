@@ -1,10 +1,10 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  guidesEn: [
+  guidesCn: [
     {
       type: 'category',
-      label: '📘 Accounting Fundamentals',
+      label: '📘 会计基础与账本体系',
       collapsed: false,
       items: [
         '01-project-intro',
@@ -20,22 +20,22 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '🤖 LLM Agents in Business Systems',
+      label: '🤖 业务系统中的 LLM Agent',
       collapsed: true,
       link: {
         type: 'doc',
         id: 'ai-agents/index',
       },
       items: [
-        'ai-agents/00-introduction',
-        'ai-agents/01-why-llm-cannot-write-ledgers',
-        'ai-agents/02-generate-review-controller',
-        'ai-agents/03-proposal-review-decision-contracts',
-        'ai-agents/04-recommendation-assurance',
-        'ai-agents/05-controller-manual-first',
-        'ai-agents/06-controller-from-manual-to-auto',
-        'ai-agents/07-action-library',
-        'ai-agents/08-prompt-governance',
+        'ai-agents/00-简介',
+        'ai-agents/01-为什么不能让LLM直接写账',
+        'ai-agents/02-生成-审阅-控制器模型',
+        'ai-agents/03-对象化契约设计',
+        'ai-agents/04-推荐可信性保障',
+        'ai-agents/05-控制器-人工优先',
+        'ai-agents/06-从人工到自动化',
+        'ai-agents/07-行动库设计',
+        'ai-agents/08-Prompt治理体系',
       ],
     },
   ],

@@ -62,7 +62,7 @@ const config: Config = {
         id: 'cn',
         path: '../guides/cn',
         routeBasePath: '/cn',
-        sidebarPath: './sidebars.ts',
+        sidebarPath: './sidebars.cn.ts',
         numberPrefixParser: false,
       },
     ],
@@ -85,14 +85,14 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'guidesEn',
           position: 'left',
           label: 'Guides (EN)',
         },
         {
           type: 'docSidebar',
           docsPluginId: 'cn',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'guidesCn',
           position: 'left',
           label: '指南 (CN)',
         },

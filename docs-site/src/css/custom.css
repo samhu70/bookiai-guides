@@ -15,6 +15,9 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Slightly smaller doc headings */
+  --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.45rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,4 +30,17 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Slightly reduce doc sidebar font size to keep long titles readable */
+:root .theme-doc-sidebar-menu .menu__link {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Tighten spacing on second-level nav items */
+:root .theme-doc-sidebar-menu .menu__list .menu__list .menu__link {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 4rem;
 }

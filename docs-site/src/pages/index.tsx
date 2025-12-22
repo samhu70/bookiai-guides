@@ -19,6 +19,40 @@ type GuideCard = {
   to: string;
 };
 
+type Series = {
+  icon: string;
+  title: string;
+  description: string;
+  to: string;
+  cta: string;
+};
+
+const coreSeries: Series[] = [
+  {
+    icon: '📘',
+    title: 'Accounting Fundamentals',
+    description: 'Coming soon.',
+    to: '/en000001',
+    cta: 'Coming soon',
+  },
+  {
+    icon: '📗',
+    title: 'AI Journal Entry System',
+    description:
+      'End-to-end capture, OCR + LLM review, controller workflow, and posting drafts.',
+    to: '/en000006',
+    cta: 'Start this system →',
+  },
+  {
+    icon: '🤖',
+    title: 'LLM Agents in Business Systems',
+    description:
+      'How we design controllable, auditable, and gradually automated AI agents in BookiAI.',
+    to: '/ai-agents',
+    cta: 'Start this series →',
+  },
+];
+
 const highlights: Highlight[] = [
   {
     title: 'AI-native bookkeeping',
@@ -82,25 +116,22 @@ const guideCards: GuideCard[] = [
 
 const guideFlow = [
   {
-    title: 'Start with scope',
-    body:
-      'Use Guide 01 to align on the product promise, audiences, and what ships in Phase 1.',
+    title: 'Start with accounting fundamentals',
+    body: 'Align on ledger structure, journals, and charts before layering AI.',
     to: '/en000001',
-    cta: 'Open Guide 01',
+    cta: 'Open fundamentals',
   },
   {
-    title: 'Onboard and bill with confidence',
-    body:
-      'Follow Accounts & Billing to cover sign-up/login, quotas, and Stripe-powered upgrades or downgrades.',
-    to: '/en000002',
-    cta: 'Accounts & Access',
-  },
-  {
-    title: 'Ship the daily workflows',
-    body:
-      'Lean on the ledger, chart, and AI journal guides to keep entries accurate and auditable.',
+    title: 'Follow the AI journal entry system',
+    body: 'Capture documents, review proposals, and post balanced drafts with audit trails.',
     to: '/en000006',
-    cta: 'AI Journal Flow',
+    cta: 'AI journal flow',
+  },
+  {
+    title: 'Extend with agents',
+    body: 'Use the LLM agent series for governance, contracts, and action libraries.',
+    to: '/ai-agents',
+    cta: 'Explore agents',
   },
 ];
 
@@ -150,50 +181,32 @@ export default function Home(): ReactNode {
         <div className="container">
           <div className={styles.heroGrid}>
             <div className={styles.heroText}>
-              <span className={styles.pill}>BookiAI · Phase 1</span>
               <Heading as="h1" className={styles.heroTitle}>
-                Ship BookiAI with clear, AI-first guides
+                BookiAI Guides
               </Heading>
               <p className={styles.heroLead}>
-                Dual-language product docs for AI-native bookkeeping: set up
-                ledgers, capture documents, post journals, and keep billing in
-                sync.
+                Practical knowledge for AI-native accounting systems.
               </p>
               <div className={styles.heroActions}>
                 <Link className={styles.primaryCta} to="/en000001">
-                  Start with Guide 01
+                  Start with fundamentals
                 </Link>
                 <Link className={styles.secondaryCta} to="/cn/cn000001">
                   中文指南入口
                 </Link>
               </div>
-              <PillList
-                items={[
-                  'AI-assisted journals',
-                  'Stripe billing + quotas',
-                  'Multi-ledger, audit-friendly',
-                  'English / 中文',
-                ]}
-              />
             </div>
             <div className={styles.heroPanel}>
-              <div className={styles.panelHeader}>Inside this playbook</div>
+              <div className={styles.panelHeader}>Who this is for</div>
               <ul className={styles.panelList}>
                 <li>
-                  AI-guided chart of accounts and ledger setup for small
-                  businesses and finance teams.
+                  Founders shipping AI-native financial systems.
                 </li>
                 <li>
-                  Multimodal capture that turns invoices/receipts into balanced
-                  entries with attachments.
+                  Engineers implementing ledgers, OCR/LLM, and automations.
                 </li>
                 <li>
-                  Stripe-backed membership, ledger slots, and storage add-ons
-                  with wallet-style visibility.
-                </li>
-                <li>
-                  System ledger behaviors, audit trails, and localization to
-                  keep teams aligned.
+                  Finance professionals who need trustable AI-assisted journals.
                 </li>
               </ul>
             </div>
@@ -205,31 +218,22 @@ export default function Home(): ReactNode {
         <section className={styles.section}>
           <div className="container">
             <div className={styles.sectionHeader}>
-              <Heading as="h2">What BookiAI delivers</Heading>
+              <Heading as="h2">Core series</Heading>
               <p className={styles.sectionSubtitle}>
-                Core themes across every guide: AI-native bookkeeping, real
-                billing and quotas, and clear hand-offs for teams.
+                Follow the three tracks to ship an AI-native accounting system
+                with confidence.
               </p>
             </div>
-            <div className={styles.highlightGrid}>
-              {highlights.map(highlight => (
-                <HighlightCard key={highlight.title} {...highlight} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className={styles.section}>
-          <div className="container">
-            <div className={styles.sectionHeader}>
-              <Heading as="h2">Essential guides</Heading>
-              <p className={styles.sectionSubtitle}>
-                Jump straight to the sections that keep the product shippable.
-              </p>
-            </div>
-            <div className={styles.cardGrid}>
-              {guideCards.map(card => (
-                <GuideCardLink key={card.title} {...card} />
+            <div className={styles.seriesGrid}>
+              {coreSeries.map(series => (
+                <Link key={series.title} className={styles.seriesCard} to={series.to}>
+                  <div className={styles.seriesIcon}>{series.icon}</div>
+                  <Heading as="h3" className={styles.seriesTitle}>
+                    {series.title}
+                  </Heading>
+                  <p className={styles.seriesDescription}>{series.description}</p>
+                  <span className={styles.cardAction}>{series.cta}</span>
+                </Link>
               ))}
             </div>
           </div>
@@ -237,42 +241,23 @@ export default function Home(): ReactNode {
 
         <section className={clsx(styles.section, styles.sectionAlt)}>
           <div className="container">
-            <div className={styles.sectionSplit}>
-              <div className={styles.splitText}>
-                <Heading as="h2">How to use these guides</Heading>
-                <p className={styles.sectionSubtitle}>
-                  Keep the flow tight: start with scope, verify access, then
-                  finish the daily ledger and AI workflows.
-                </p>
-                <div className={styles.flowList}>
-                  {guideFlow.map(item => (
-                    <div key={item.title} className={styles.flowItem}>
-                      <div className={styles.flowTitle}>{item.title}</div>
-                      <p className={styles.flowBody}>{item.body}</p>
-                      <Link className={styles.flowLink} to={item.to}>
-                        {item.cta} →
-                      </Link>
-                    </div>
-                  ))}
+            <div className={styles.sectionHeader}>
+              <Heading as="h2">How to use these guides</Heading>
+              <p className={styles.sectionSubtitle}>
+                Start with fundamentals, move into the AI journal system, then
+                extend with agents and governance.
+              </p>
+            </div>
+            <div className={styles.flowList}>
+              {guideFlow.map(item => (
+                <div key={item.title} className={styles.flowItem}>
+                  <div className={styles.flowTitle}>{item.title}</div>
+                  <p className={styles.flowBody}>{item.body}</p>
+                  <Link className={styles.flowLink} to={item.to}>
+                    {item.cta} →
+                  </Link>
                 </div>
-              </div>
-              <div className={styles.splitNote}>
-                <div className={styles.noteBadge}>Tip</div>
-                <Heading as="h3" className={styles.noteTitle}>
-                  Keep screenshots close
-                </Heading>
-                <p className={styles.noteBody}>
-                  Every guide links to the exact UI: sign-up/login, billing,
-                  ledger creation, journal entry, chart of accounts, and system
-                  ledger views. Update screenshots under `/assets` as flows
-                  evolve.
-                </p>
-                <p className={styles.noteBody}>
-                  Need a localized view? Open the same section in{' '}
-                  <Link to="/cn/cn000001">中文指南</Link> to align copy
-                  and UI labels.
-                </p>
-              </div>
+              ))}
             </div>
           </div>
         </section>
