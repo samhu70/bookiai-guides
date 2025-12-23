@@ -1,5 +1,5 @@
 ---
-title: "指南 01 · BookiAI 简介"
+title: "1.BookiAI 简介"
 summary: "面向用户的功能概览与目标：AI 原生复式记账、免费注册、会员与未来路线。"
 slug: "/cn000001"
 tags: ["guides", "overview", "roadmap"]
@@ -7,7 +7,7 @@ category: "guides"
 status: "draft"
 ---
 
-# 指南 01 · BookiAI 简介
+# 1.BookiAI 简介
 
 欢迎来到 BookiAI 指南系列。首篇为用户介绍产品当前提供的能力，以及接下来要上线的功能。
 

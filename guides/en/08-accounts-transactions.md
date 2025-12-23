@@ -1,5 +1,5 @@
 ---
-title: "Accounts Transactions"
+title: "8.Accounts Transactions"
 summary: "See why the account detail page matters, how to navigate it, and where to place screenshots."
 slug: "/en000008"
 tags: ["guides", "accounts", "transactions"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; place the main account-transactions screenshot here (
 status: "draft"
 ---
 
-# Accounts Transactions
+# 8.Accounts Transactions
 
 > Track every entry for a chosen account, filter quickly, and open attachments without leaving the page.
 

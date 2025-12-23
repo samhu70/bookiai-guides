@@ -1,5 +1,5 @@
 ---
-title: "Accounts & Access: From Sign-up to Billing"
+title: "2.Accounts & Access"
 summary: "Sign-up, login, email verification, password management, free quotas, upgrades/expansions, and downgrades."
 slug: "/en000002"
 tags: ["guides", "accounts", "billing"]
@@ -9,7 +9,7 @@ hero_image: "" # optional, use object storage URL if available
 status: "draft"
 ---
 
-# Accounts & Access: From Sign-up to Billing
+# 2.Accounts & Access: From Sign-up to Billing
 
 > For first-time BookiAI users: how to create an account, log in, verify email, manage passwords, understand free quotas, when to upgrade/expand, and how to downgrade/cancel.
 

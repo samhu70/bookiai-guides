@@ -1,5 +1,5 @@
 ---
-title: "科目明细"
+title: "8.科目明细"
 summary: "说明科目详情页的价值、导航方式，并标注截图位置。"
 slug: "/cn000008"
 tags: ["guides", "accounts", "transactions"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; 在此放科目交易主截图（例：../assets/acco
 status: "draft"
 ---
 
-# 科目明细
+# 8.科目明细
 
 > 针对单个科目追踪所有分录，快速筛选，并在同一页查看附件。
 

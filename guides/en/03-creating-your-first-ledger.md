@@ -1,5 +1,5 @@
 ---
-title: "Creating Your First Ledger"
+title: "3.Creating Your First Ledger"
 summary: "Set up a new ledger, import your chart of accounts, and prepare opening balances."
 slug: "/en000003"
 tags: ["guides", "ledger", "setup"]
@@ -9,7 +9,7 @@ hero_image: "" # optional
 status: "draft"
 ---
 
-# Creating Your First Ledger
+# 3.Creating Your First Ledger
 
 > Walkthrough for new users to create their first ledger, import accounts, and get ready for transactions.
 

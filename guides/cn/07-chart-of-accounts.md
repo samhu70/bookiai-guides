@@ -1,5 +1,5 @@
 ---
-title: "会计科目表"
+title: "7.会计科目表"
 summary: "说明科目表页面的用途、如何管理科目，并标注 UI 截图位置。"
 slug: "/cn000007"
 tags: ["guides", "accounts", "configuration"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; 在此放科目表总览截图（例：../assets/char
 status: "draft"
 ---
 
-# 会计科目表
+# 7.会计科目表
 
 > 在这里查看、调整和扩展科目；需要新代码时可用 AI 工具栏。
 

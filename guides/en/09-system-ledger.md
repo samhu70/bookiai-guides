@@ -1,5 +1,5 @@
 ---
-title: "System Ledger & Billing"
+title: "9.System Ledger & Billing"
 summary: "Understand the billing ledger, what each area shows, and where to add screenshots."
 slug: "/en000009"
 tags: ["guides", "ledger", "billing"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; place the main system-ledger screenshot here (e.g., .
 status: "draft"
 ---
 
-# System Ledger & Billing
+# 9.System Ledger & Billing
 
 > The system ledger is your billing home: see membership charges, add-ons, and invoices in one place.
 

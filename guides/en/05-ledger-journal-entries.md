@@ -1,5 +1,5 @@
 ---
-title: "Ledger Journal Entries"
+title: "5.Ledger Journal Entries"
 summary: "What the journal page is for, how to browse/post entries, and where to place screenshots."
 slug: "/en000005"
 tags: ["guides", "ledger", "journals"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; place the main journal-list screenshot here (e.g., ..
 status: "draft"
 ---
 
-# Ledger Journal Entries
+# 5.Ledger Journal Entries
 
 > See how to review journal entries, find the right lines with filters, and post new entries with the required support.
 

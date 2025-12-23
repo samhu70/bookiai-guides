@@ -1,5 +1,5 @@
 ---
-title: "Chart of Accounts"
+title: "7.Chart of Accounts"
 summary: "What the chart view is for, how to manage accounts, and where to add screenshots for the UI."
 slug: "/en000007"
 tags: ["guides", "accounts", "configuration"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; place the main chart overview screenshot here (e.g., 
 status: "draft"
 ---
 
-# Chart of Accounts
+# 7.Chart of Accounts
 
 > Review, adjust, and expand your accounts in one place. Use the AI toolbar when you need new codes fast.
 

@@ -1,5 +1,5 @@
 ---
-title: "AI-Assisted Journal Entry"
+title: "6.AI-Assisted Journal Entry"
 summary: "How the AI entry flow works, what each step is for, and where to place supporting screenshots."
 slug: "/en000006"
 tags: ["guides","ledger","ai"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; place the main AI flow screenshot here (e.g., ../asse
 status: "draft"
 ---
 
-# AI-Assisted Journal Entry
+# 6.AI-Assisted Journal Entry
 
 > Let AI read your documents, pick accounts, and draft balanced entries. This section shows the flow and where screenshots belong.
 

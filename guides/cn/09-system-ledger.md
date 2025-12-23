@@ -1,5 +1,5 @@
 ---
-title: "系统账簿与计费"
+title: "9.系统账簿与计费"
 summary: "理解计费账簿、各区域展示内容，并标注截图位置。"
 slug: "/cn000009"
 tags: ["guides", "ledger", "billing"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; 在此放系统账簿主截图（例：../assets/syst
 status: "draft"
 ---
 
-# 系统账簿与计费
+# 9.系统账簿与计费
 
 > 系统账簿是计费中心：会员扣费、附加包和发票都在这里。
 

@@ -1,5 +1,5 @@
 ---
-title: "Ledger Overview"
+title: "4.Ledger Overview"
 summary: "See how the Ledger Overview page is organized, what each area is for, and where screenshots belong."
 slug: "/en000004"
 tags: ["guides", "ledger", "dashboard"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; place the main overview screenshot here (e.g., ../ass
 status: "draft"
 ---
 
-# Ledger Overview
+# 4.Ledger Overview
 
 > This page explains what you see on the Ledger Overview screen, why each section exists, and where to add UI screenshots.
 

@@ -1,5 +1,5 @@
 ---
-title: "账簿分录"
+title: "5.账簿分录"
 summary: "了解分录页面的用途、如何浏览/过账，并标注截图位置。"
 slug: "/cn000005"
 tags: ["guides", "ledger", "journals"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; 在此放主分录列表截图（例：../assets/ledg
 status: "draft"
 ---
 
-# 账簿分录
+# 5.账簿分录
 
 > 说明如何查看分录、用筛选快速定位，并在需要时录入新分录；同时标出截图应放的位置。
 

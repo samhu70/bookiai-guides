@@ -1,5 +1,5 @@
 ---
-title: "账簿总览"
+title: "4.账簿总览"
 summary: "了解页面结构、各区域用途，并标注截图放置位置。"
 slug: "/cn000004"
 tags: ["guides", "ledger", "dashboard"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; 在此放主视图截图（例：../assets/ledger_ove
 status: "draft"
 ---
 
-# 账簿总览
+# 4.账簿总览
 
 > 说明账簿总览页能看到什么、每个区域的目的，以及截图应放在哪里。
 

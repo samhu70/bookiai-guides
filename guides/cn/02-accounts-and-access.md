@@ -1,5 +1,5 @@
 ---
-title: "账户与访问：从注册到计费"
+title: "2.账户与访问"
 summary: "注册、登录、邮箱验证、密码管理、免费额度、升级/扩容与降级。"
 slug: "/cn000002"
 tags: ["guides", "accounts", "billing"]
@@ -9,7 +9,7 @@ hero_image: "" # optional, use object storage URL if available
 status: "draft"
 ---
 
-# 账户与访问：从注册到计费
+# 2.账户与访问：从注册到计费
 
 > 面向首次使用 BookiAI 的用户：如何创建账号、登录、验证邮箱、管理密码、了解免费额度、何时升级/扩容，以及如何降级/取消。
 

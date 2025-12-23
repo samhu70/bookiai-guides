@@ -1,5 +1,5 @@
 ---
-title: "AI 辅助分录"
+title: "6.AI 辅助分录"
 summary: "了解 AI 分录流程、各步骤用途，并标注支持截图的位置。"
 slug: "/cn000006"
 tags: ["guides","ledger","ai"]
@@ -9,7 +9,7 @@ hero_image: "" # optional; 在此放 AI 流程主截图（例：../assets/ai_jou
 status: "draft"
 ---
 
-# AI 辅助分录
+# 6.AI 辅助分录
 
 > 让 AI 读取单据、匹配科目，并草拟平衡分录。下面说明流程及截图放置位置。
 

@@ -42,5 +42,33 @@
 :root .theme-doc-sidebar-menu .menu__list .menu__list .menu__link {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 4rem;
+  padding-left: 0.8rem;
+}
+
+/* Add horizontal indent to second-level list wrapper */
+:root .theme-doc-sidebar-menu .menu__list .menu__list {
+  padding-left: 1.4rem !important;
+  margin-left: 0.6rem !important;
+}
+
+/* Force indent on second-level items themselves */
+:root .theme-doc-sidebar-menu .menu__list .menu__list .menu__list-item > .menu__link {
+  padding-left: 1.5rem !important;
+}
+
+/* Also shift the list item container to guarantee visible indent */
+:root .theme-doc-sidebar-menu .menu__list .menu__list .menu__list-item {
+  margin-left: 0.75rem !important;
+}
+
+/* Target level-2 items explicitly to override theme padding */
+:root .theme-doc-sidebar-menu .theme-doc-sidebar-item-link-level-2 > .menu__link,
+:root .theme-doc-sidebar-menu .theme-doc-sidebar-item-category-level-2 > .menu__link {
+  padding: 0.25rem 0.75rem 0.25rem 1.4rem !important;
+}
+
+/* Fallback for label span to ensure visible indent even if link padding is overridden */
+:root .theme-doc-sidebar-menu .theme-doc-sidebar-item-link-level-2 > .menu__link > .linkLabel_WmDU {
+  padding-left: 0.4rem;
+  display: inline-block;
 }
