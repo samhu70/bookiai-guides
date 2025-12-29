@@ -16,6 +16,7 @@ const sidebars: SidebarsConfig = {
         '07-chart-of-accounts',
         '08-accounts-transactions',
         '09-system-ledger',
+        '10-multi-currency',
       ],
     },
     {

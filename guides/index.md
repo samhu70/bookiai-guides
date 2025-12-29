@@ -24,6 +24,8 @@ summary: "Navigation for all guides."
   - Drill into every entry per account with filters and attachments.
 - [09 · System Ledger & Billing](./en/09-system-ledger.md)
   - Inspect every membership charge and download invoices.
+- [10 · Multi-currency Ledgers](./en/10-multi-currency.md)
+  - Enable multi-currency, manage FX rates, post foreign-currency entries, and read reports.
 
 ## 中文
 - [01 · BookiAI 简介](./cn/01-project-intro.md)
@@ -44,3 +46,5 @@ summary: "Navigation for all guides."
   - 通过筛选查看单个科目的全部分录与附件。
 - [09 · 系统账簿与计费](./cn/09-system-ledger.md)
   - 查看会员扣费记录并下载发票。
+- [10 · 多币种账簿](./cn/10-multi-currency.md)
+  - 开启多币种、管理汇率、录入外币分录与查看报表。
